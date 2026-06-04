@@ -37,8 +37,8 @@ the transition to cancer?
 ## How to reproduce
 
 ### 1. Clone this repository
-git clone https://github.com/yourusername/lungcell-analysis.git
-cd lungcell-analysis
+git clone https://github.com/reuel-web/lung-cell-analysis.git
+cd lung-cell-analysis
 
 ### 2. Create the conda environment
 conda env create -f environment.yml
