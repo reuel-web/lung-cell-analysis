@@ -25,6 +25,9 @@ the transition to cancer?
   normal lung identity markers (AGER, CLDN18) silenced
 - **Volcano plot** identifies thousands of statistically significant 
   genes; CEACAM5 and IL6 strongly upregulated in cancer
+- **Pathway enrichment** confirms E2F targets, G2M checkpoint, and MYC 
+  programs are the dominant cancer signatures; TNF-Alpha/NF-κB and 
+  complement pathways are silenced in tumour tissue
 
 ## Figures
 
@@ -33,6 +36,9 @@ the transition to cancer?
 | `figures/01_pca.png` | PCA of all 164 samples coloured by condition |
 | `figures/02_heatmap.png` | Top 50 most variable genes across samples |
 | `figures/03_volcano.png` | Differential expression: fold change vs significance |
+| `figures/04_pathways_cancer.png` | ORA — pathways enriched in NSCLC |
+| `figures/05_pathways_normal.png` | ORA — pathways silenced in cancer |
+| `figures/06_gsea_summary.png`    | GSEA summary — NES scores across Hallmark pathways |
 
 ## How to reproduce
 
