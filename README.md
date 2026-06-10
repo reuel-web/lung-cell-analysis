@@ -28,6 +28,17 @@ the transition to cancer?
 - **Pathway enrichment** confirms E2F targets, G2M checkpoint, and MYC 
   programs are the dominant cancer signatures; TNF-Alpha/NF-κB and 
   complement pathways are silenced in tumour tissue
+- **HEXIM1** is the strongest survival-associated gene (p < 0.0001) — 
+  high expression predicts significantly better outcomes, consistent 
+  with its role as a transcriptional brake on cancer growth programs
+- **CHEK1** and **RAD54L** (DNA repair genes) associate with worse 
+  survival when highly expressed — tumours that upregulate DNA repair 
+  survive treatment more effectively
+- **AGER** (p = 0.024) — normal lung identity marker — retaining 
+  expression associates with better prognosis
+- Genome-wide scan identified 20 genes with p < 0.002, predominantly 
+  tissue identity markers (high = better) vs DNA repair genes (high = worse)
+
 
 ## Figures
 
@@ -39,6 +50,9 @@ the transition to cancer?
 | `figures/04_pathways_cancer.png` | ORA — pathways enriched in NSCLC |
 | `figures/05_pathways_normal.png` | ORA — pathways silenced in cancer |
 | `figures/06_gsea_summary.png`    | GSEA summary — NES scores across Hallmark pathways |
+| `figures/07_km_curves.png` | KM curves for 6 key cancer genes |
+| `figures/08_km_top_genes.png` | KM curves for top genome-wide scan hits |
+| `figures/09_survival_scan.png` | Summary of top 20 survival-associated genes |
 
 ## How to reproduce
 
@@ -54,20 +68,10 @@ conda activate lungcell
 Follow the data download instructions in notebooks/01_load_data.ipynb
 
 ### 4. Run the analysis
-Open notebooks/02_analysis.ipynb and run all cells
+Open notebooks/02_analysis.ipynb and run all cells (so on...)
 
 ## Project structure
 
-lungcell-analysis/
-├── notebooks/
-│   ├── 01_load_data.ipynb
-│   └── 02_analysis.ipynb
-├── figures/
-│   ├── 01_pca.png
-│   ├── 02_heatmap.png
-│   └── 03_volcano.png
-├── environment.yml
-└── README.md
 
 ## Tools used
 
