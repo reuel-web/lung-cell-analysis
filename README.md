@@ -78,3 +78,8 @@ Open notebooks/02_analysis.ipynb and run all cells (so on...)
 - Python 3.11, pandas, numpy, matplotlib, seaborn
 - scikit-learn (PCA), scipy (t-test), GEOparse
 - scanpy (single-cell analysis toolkit)
+
+Limitations
+- This is an exploratory analysis. Differential expression used t-tests on RPKM values, and count-based methods such as DESeq2 or edgeR would be better suited to between-sample comparison.
+- The survival scan reports nominal p-values (p < 0.002) without multiple-testing correction, so its hits are candidates, not validated markers.
+- Findings are associations. They do not establish mechanism or treatment response.
